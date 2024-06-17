@@ -1,0 +1,87 @@
+{
+  "project": {
+    "name": "HKUST Digital Images | Visualization using VIKUS Viewer",
+    "quality": 1
+ },
+  "loader": {
+    "info": "/data/info.md",
+    "timeline": "/data/timeline.csv",
+    "items": "/data/data.csv",
+    "layouts": [
+        {
+            "title": "Time"
+        },
+        {
+          "title": "Similarity",
+          "url": "http://127.0.0.1:5500/data/tsne.csv",
+          "scale": 1.1
+      }
+    ],
+    "textures": {
+      "medium": {
+        "size": 90,
+        "url": "http://127.0.0.1:5500/data/sprites/spritesheet.json"
+      },
+      "detail": {
+        "size": 256,
+        "url": "https://digitalimages.hkust.edu.hk/gallery/"
+      },
+      "big": {
+        "size": 4096,
+        "url": "https://digitalimages.hkust.edu.hk/gallery/"
+      }
+    }
+  },
+  "style": {
+    "fontColor": "#2d3b43",
+    "fontColorActive": "#eae2cb",
+    "fontBackground": "#295b71",
+    "textShadow": "1px 1px 0px #f8f4e9",
+    "canvasBackground": "#eae2cb",
+    "timelineBackground": "#fff9eb",
+    "timelineFontColor": "#000",
+    "backgroundHeader": "#035151",
+    "fontColorHeader": "#f8774f",
+    "detailBackground": "#EEE",
+    "infoBackground": "#33444c",
+    "infoFontColor": "#fff",
+    "searchbarBackground": "#295b71"
+  },
+  "projection": {
+    "columns": 10
+  },
+  "detail": {
+    "structure": [      
+      {
+        "name": "Description",
+        "source": "_description",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Year",
+        "source": "_year",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "File Name",
+        "source": "_name",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "File Path",
+        "source": "_id3",
+        "display": "column",
+        "type": "text"
+      },
+      {
+        "name": "Directory",
+        "source": "_URL",
+        "display": "column",
+        "type": "text"
+      }
+    ]
+  }
+}
