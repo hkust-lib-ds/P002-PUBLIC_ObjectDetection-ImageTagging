@@ -1,4 +1,4 @@
-_HKUST Library - Digital Initiatives Project - P002_
+_HKUST Library - DS CoLab Project - P002_
 # Object Detection and Image Tagging
 
 **Project Introduction:**  https://library.hkust.edu.hk/ds/project/p002/  
