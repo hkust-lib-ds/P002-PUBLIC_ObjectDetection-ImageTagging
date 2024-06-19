@@ -7,7 +7,7 @@ _HKUST Library - DS CoLab Project - P002_
 ## Deliverables
 
 ### Visualization: Using VIKUS Viewer to visualize photos in HKUST Digital Images
-[Source code](https://github.com/hkust-lib-ds/P002-PUBLIC_ObjectDetection-ImageTagging/tree/main/visualization-using-vikusviewer) | [Live Demo](https://digitalimages.hkust.edu.hk/vis/)
+[Source code](https://github.com/hkust-lib-ds/P002-PUBLIC_ObjectDetection-ImageTagging/tree/main/visualization-using-vikusviewer)
 
 ![Preview of the outcome of using VIKUS Viewer to visualize photos in HKUST Digital Images](preview-img/p002_vikus-viewer.gif)
 
