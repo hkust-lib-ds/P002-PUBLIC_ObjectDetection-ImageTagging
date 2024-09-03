@@ -2,6 +2,7 @@ _HKUST Library - DS CoLab Project - P002_
 # Object Detection and Image Tagging
 
 **Project Introduction:**  https://library.hkust.edu.hk/ds/project/p002/  
+**Timeframe:** 2023/24 Spring semester (Feb-May 2024)
 
 
 ## Deliverables
