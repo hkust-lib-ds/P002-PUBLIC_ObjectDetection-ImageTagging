@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/807923840.svg)](https://doi.org/10.5281/zenodo.15266709)
+
 _HKUST Library - DS CoLab Project - P002_
 # Object Detection and Image Tagging
 
